@@ -1,0 +1,27 @@
+.cabeçalho{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    margin-inline-start: 0px;
+    padding: 0px;
+}
+.fundo {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+   background-color:cadetblue;
+    height: 100vh;
+}
+.login{
+  width: fit-content;
+  padding: 2px;
+  font-size: 10px;
+  height: 25%;
+}
+table{
+    width: 50%;
+    margin-left: 29%;
+    margin-top: -10%;
+
+}

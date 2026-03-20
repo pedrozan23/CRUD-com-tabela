@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários</title>
+    <link rel="stylesheet" href="cssBÃO.css">
+</head>
+<body>
+    <div class="cabeçalho">
+        <h1>Cadastro</h1>
+    </div>
+        <div class="fundo">
+      <table id="tabela">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Sexo</th>
+            <th>Turma</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+        <div class="login">
+        <form action="cadastro">
+        <p>Nome</p>   
+        <input type="text" id="nome" required placeholder="Nome completo" required>
+        <p>E-mail</p> 
+        <input type="text" id="email" value="" placeholder="Seu melhor email" requierd>
+        <p>Sexo</p>   
+        <select id="sexo">
+    <option value=""></option>
+    <option>Masculino</option>
+    <option>Feminino</option>
+  </select>
+
+        <p>Turma</p>
+        <input type="radio" name="Turma" id="TURMA_A">
+            <label for="TURMA_A">1ESAN (A)</label><br>
+        <input type="radio" name="Turma" id="TURMA_B">
+            <label for="TURMA_B">1ESBN (B)</label><br>
+        <input type="radio" name="Turma" id="TURMA_C">
+            <label for="TURMA_C">1ESCN (C)</label><br><br>
+   
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="mostrarTodos()">Exibir Dados</button>
+            </div>    
+        </form>
+    </div>
+
+</body>
+<script>
+    <!--fazer o java script-->
+</script>
+</html>
