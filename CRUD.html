@@ -11,7 +11,7 @@
         <h1>Cadastro de Usuários da UNIBRASIL</h1>
     </header>
 
-        <form action="Cadastro">
+    <form onsubmit="return false;">
             <h2>Entre na tabela</h2>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br><br>
@@ -34,7 +34,7 @@
             <option value="turma_c">1ESCN (C)</option>
         </select><br><br>
         
-        <button onclick="adicionar_na_tabela()">Cadastrar</button>
+        <button onclick="adicionarDados()">Cadastrar</button>
     </form>
 
     <table id="tabela">
@@ -44,13 +44,11 @@
             <th>Email</th>
             <th>Sexo</th>
             <th>Turma</th>
+            <th>Ações</th>
         </tr>
     </thead>
-    <tbody></tbody>
+    <tbody id="corpo_tabela"></tbody>
             
-
 </body>
-<script>
-    <!--fazer o java script-->
-</script>
+<script src="script.js"></script>
 </html>
